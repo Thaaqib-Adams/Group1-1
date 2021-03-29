@@ -11,7 +11,8 @@ package za.ac.cput.shapeform;
  */
 public class Trapezoid {
     
-    private String area,perimeter="";
+    private String area=" A=(base 1+base 2)/2*height";
+    private String perimeter=" Add lenghts of all side";
 
     public String getArea() {
         return area;
@@ -31,7 +32,7 @@ public class Trapezoid {
 
     @Override
     public String toString() {
-        return "Trapezoid{" + "area=" + area + ", perimeter=" + perimeter + '}';
+        return "Trapezoid\n" + "area=" + area + ", \nperimeter=" + perimeter + "";
     }
     
     
