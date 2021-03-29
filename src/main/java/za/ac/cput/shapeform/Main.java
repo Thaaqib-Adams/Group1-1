@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        //Where the main method will call all other classes
+        //Where all the other classes will be called
     }
 
 }
