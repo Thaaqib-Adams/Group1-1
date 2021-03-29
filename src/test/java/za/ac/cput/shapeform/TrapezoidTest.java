@@ -11,30 +11,53 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import org.junit.Ignore;
 
 /**
  *
- * @author AbelK
+ * @author Abel kabeya 217174183
  */
 public class TrapezoidTest {
-    
-    public TrapezoidTest() {
-    }
-    
-    @BeforeClass
-    public static void setUpClass() {
-    }
-    
-    @AfterClass
-    public static void tearDownClass() {
-    }
-    
+
+    private Trapezoid trapezoid1;
+    private Trapezoid trapezoid2;
+    private Trapezoid trapezoid3;
+
     @Before
     public void setUp() {
+
+        trapezoid1 = new Trapezoid();
+        trapezoid2 = new Trapezoid();
+        trapezoid3 = trapezoid1;
     }
     
-    @After
-    public void tearDown() {
+    
+    @Test(timeout=1000)//timeout test
+    public void testIdentity() {
+        assertSame(trapezoid1, trapezoid3);
+
+    }
+
+    @Test
+    public void testEquality() {
+        assertEquals(trapezoid1, trapezoid3);
+
+    }
+
+    @Test
+    // Testing print
+    public void testPrint() {
+        System.out.println("Trapezoid");
+        fail("Test string");//deliberate failing test
+
+    }
+
+    @Ignore // Disabling Test
+    @Test
+    // Testing Output
+    public void testOutput() {
+        System.out.println("Testing output");
+
     }
 
     // TODO add test methods here.
