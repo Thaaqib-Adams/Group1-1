@@ -11,4 +11,28 @@ package za.ac.cput.shapeform;
  */
 public class Trapezoid {
     
+    private String area,perimeter="";
+
+    public String getArea() {
+        return area;
+    }
+
+    public void setArea(String area) {
+        this.area = area;
+    }
+
+    public String getPerimeter() {
+        return perimeter;
+    }
+
+    public void setPerimeter(String perimeter) {
+        this.perimeter = perimeter;
+    }
+
+    @Override
+    public String toString() {
+        return "Trapezoid{" + "area=" + area + ", perimeter=" + perimeter + '}';
+    }
+    
+    
 }
