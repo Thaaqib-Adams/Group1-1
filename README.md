@@ -2,6 +2,8 @@
 Brief for Assignment
 
 
+PLEASE INCLUDE YOUR NAME + SURNAME & STUDENT NUMBER (IN COMMENTS) OF YOUR FILES THAT YOU CREATE!!
+
 1. Each team member will setup/create your GIT account on Github.com.
 2. The team leader will then:
 a. create a repository on Github.com and;
