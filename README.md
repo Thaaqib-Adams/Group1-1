@@ -1,8 +1,9 @@
 # Group1
-Brief for Assignment
-
 
 PLEASE INCLUDE YOUR NAME + SURNAME & STUDENT NUMBER (IN COMMENTS) OF YOUR FILES THAT YOU CREATE!!
+
+Brief for Assignment
+
 
 1. Each team member will setup/create your GIT account on Github.com.
 2. The team leader will then:
