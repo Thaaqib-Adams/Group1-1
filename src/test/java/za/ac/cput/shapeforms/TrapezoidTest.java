@@ -46,11 +46,10 @@ public class TrapezoidTest {
 
     @Test
     public void testSomeMethod() {
-        // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
-    }
+            }
 
-    @Timeout(100)
+    @Timeout(5)
     @Test
     public void testTimeOut() {
         System.out.println("Time meout");
