@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Timeout;
 
-//Student Name - Fayaaad Abrahams
+//Student Name - Fayaad Abrahams
 //Student Number - 218221630
 public class CylinderTest {
 
