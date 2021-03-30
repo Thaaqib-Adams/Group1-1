@@ -7,7 +7,7 @@ package za.ac.cput.shapeforms;
 
 /**
  *
- * @author AbelK
+ * @@author Abel_Kabeya 217174183
  */
 public class Trapezoid {
     
