@@ -16,7 +16,9 @@ import org.junit.jupiter.api.Timeout;
 
 /**
  *
- * @author AbelK
+ * @author Abel Kabeya 217174183
+ * 
+ * Test Class to test methods
  */
 public class TrapezoidTest {
 
@@ -33,30 +35,30 @@ public class TrapezoidTest {
 
     }
 
-    @Test
+    @Test//Testing object Identity
     public void testIdentity() {
         assertSame(trapezoid1, trapezoid3);
     }
 
-    @Test
+    @Test//Testing object Equality
     public void testEquality() {
         assertEquals(trapezoid1, trapezoid3);
 
     }
 
-    @Test
+    @Test//Deliberately fail a test
     public void testSomeMethod() {
         fail("The test case is a prototype.");
             }
 
-    @Timeout(5)
+    @Timeout(5)//Timeout
     @Test
     public void testTimeOut() {
         System.out.println("Time meout");
 
     }
 
-    @Disabled
+    @Disabled//Disable test
     @Test
     public void testThisMethod() {
         System.out.println("Test me");
