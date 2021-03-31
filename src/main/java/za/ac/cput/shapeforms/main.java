@@ -1,6 +1,11 @@
 package za.ac.cput.shapeforms;
 import java.util.Scanner;
 
+/**
+ *
+ * @author imraan_219361738
+ */
+
 public class main {
 //We will call all of the classes from here, don't worry if there's nothing here
     public static void main(String[] args) {
@@ -21,8 +26,8 @@ public class main {
         Rectangular shape = new Rectangular(lgt, wdt, hgt);
          
         System.out.println(shape.displayResults());
-        shape.calculateVolume();
-        shape.calculateSurface();
+        System.out.println("Total volume = " + shape.calculateVolume());
+        System.out.println("Total surface = " + shape.calculateSurface());
     }
 
 }

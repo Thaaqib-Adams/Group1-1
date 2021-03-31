@@ -64,13 +64,12 @@ public class Rectangular {
         
         surface = surfOf_lxh + surfOf_lxw + surfOf_hxw;
         return this.surface;
-        //System.out.println("The surface of your rectangular prism is = " + this.surface); 
     }
 
-    public void calculateVolume()
+    public double calculateVolume()
     {
         volume = this.length*this.width*this.height;
-        System.out.println("The Volume of your rectangular prism is = " + this.volume);
+        return this.volume;
     }
 
     public String displayResults()
