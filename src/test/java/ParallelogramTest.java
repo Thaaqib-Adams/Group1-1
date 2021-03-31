@@ -69,7 +69,7 @@ public class ParallelogramTest {
    @Disabled
     @Test
     public void testDisabled() {
-       System.out.println("Yesssiir");
+       System.out.println("Yesssiiiirrr.");
     }
     
 }
