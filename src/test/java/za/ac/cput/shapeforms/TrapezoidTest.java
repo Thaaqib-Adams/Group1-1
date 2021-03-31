@@ -16,7 +16,7 @@ import org.junit.jupiter.api.Timeout;
 
 /**
  *
- * @author Abel Kabeya 217174183
+ * @author Abel_Kabeya 217174183
  * 
  * Test Class to test methods
  */
@@ -60,7 +60,7 @@ public class TrapezoidTest {
 
     @Disabled//Disable test
     @Test
-    public void testThisMethod() {
+    public void testDisable() {
         System.out.println("Test me");
 
     }
