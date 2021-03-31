@@ -1,8 +1,9 @@
 package za.ac.cput.shapeforms;
-
 /**
  *
- * @author tarre
+ * @author Tarren-Marc Adams
+ * @Student number: 214041794
+ * 
  */
 public class Triangle {
     private double height;
@@ -72,3 +73,4 @@ public class Triangle {
         return "Triangle{" + "area=" + area + ", parimeter=" + parimeter + '}';
     } 
 }
+//end of program

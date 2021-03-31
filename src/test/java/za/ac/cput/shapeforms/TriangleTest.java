@@ -11,7 +11,9 @@ import org.junit.jupiter.api.Timeout;
 
 /**
  *
- * @author tarre
+ * @author Tarren-Marc Adams
+ * @Student number: 214041794
+ * 
  */
 public class TriangleTest {
     
@@ -37,12 +39,12 @@ public class TriangleTest {
     @AfterEach
     public void tearDown() {
     }
-    
+    // Test Equality
     @Test
     public void testEquality(){
         assertEquals(triangle1,triangle1);
     }
-    
+    // Test Identity Same and NotSame 
     @Test
     public void testIdentity(){
         assertSame(triangle1,triangle3);
@@ -51,21 +53,22 @@ public class TriangleTest {
     public void testNotSameIdetity(){
         assertNotSame(triangle1,triangle2);
     }
-
+    //Test failing
     @Test
     public void testSomeMethod() {
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        fail("This test will fail");
     }
+    //Test Timeout
     @Test
     @Timeout(50)
     public void testTimeout(){
         System.out.println("Timeed out");
     }
+    //Test disable
     @Disabled
     @Test
     public void testAnotherMethed(){
         System.out.println("This method has been disabled");
     }
-    
 }
+//end of test
