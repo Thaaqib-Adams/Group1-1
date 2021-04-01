@@ -1,10 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package za.ac.cput.shapeforms;
 
+//Student Name - Abel_Kabeya 
+//Student Number - 217174183
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeEach;
@@ -14,12 +11,6 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Timeout;
 
-/**
- *
- * @author Abel_Kabeya 217174183
- * 
- * Test Class to test methods
- */
 public class TrapezoidTest {
 
     private Trapezoid trapezoid1;
@@ -49,7 +40,7 @@ public class TrapezoidTest {
     @Test//Deliberately fail a test
     public void testSomeMethod() {
         fail("The test case is a prototype.");
-            }
+    }
 
     @Timeout(5)//Timeout
     @Test

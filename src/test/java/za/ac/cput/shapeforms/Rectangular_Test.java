@@ -1,5 +1,8 @@
 package za.ac.cput.shapeforms;
 
+// Student Name - Imraan Abdullah 
+//Student Number - 219361738
+
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeEach;
@@ -10,10 +13,6 @@ import org.junit.jupiter.api.Timeout;
 import static org.junit.jupiter.api.Assertions.*;
 import java.time.Duration;
 
-/**
- *
- * @author imraan_219361738
- */
 public class Rectangular_Test {
 
     Rectangular shape_01 = null;
@@ -42,16 +41,16 @@ public class Rectangular_Test {
         shape_01 = shape_02;
     }
 // ******************************Working test******************************
+
     @Test
-    public void calculateSurface()
-    {
-       double result;
+    public void calculateSurface() {
+        double result;
         result = shape_01.calculateSurface();
         assertEquals(150, result);
     }
+
     @Test
-    public void calculateVolume()
-    {
+    public void calculateVolume() {
         double result;
         result = shape_01.calculateVolume();
         assertEquals(125, result);
@@ -59,8 +58,7 @@ public class Rectangular_Test {
 
 //******************************Object equality ******************************
     @Test
-    public void isObjectEqual()
-    {
+    public void isObjectEqual() {
         assertEquals(shape_01, shape_02);
     }
 
@@ -70,32 +68,28 @@ public class Rectangular_Test {
 
 //******************************Object identity******************************
     @Test
-    public void isObjectIdentical()
-    {
+    public void isObjectIdentical() {
         assertSame(shape_01, shape_02);
     }
 
 //******************************Failing test******************************
     @Test
-    public void failingTest()
-    {
+    public void failingTest() {
         double result = 15;
         assertEquals(result, 10);
     }
-    
+
 //******************************Object timeout******************************
     @Test
-    @Timeout (value = 1000)
-    public void testTimeOut()
-    {
+    @Timeout(value = 1000)
+    public void testTimeOut() {
         System.out.println("checks the runtime of this particular methord");
     }
 
- //******************************Disabled Test******************************
+    //******************************Disabled Test******************************
     @Test
     @Disabled
-    public void disablingTest()
-    {
+    public void disablingTest() {
         double result;
         result = shape_01.calculateVolume();
         assertEquals(125, result);

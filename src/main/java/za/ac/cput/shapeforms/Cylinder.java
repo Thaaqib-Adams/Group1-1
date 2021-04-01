@@ -1,6 +1,7 @@
 package za.ac.cput.shapeforms;
 //Student Name - Fayaad Abrahams
 //Student Number - 218221630
+
 public class Cylinder {
 
     private String radius = "(22/7 x radius)^2 x height";
@@ -8,10 +9,9 @@ public class Cylinder {
 
     @Override
     public String toString() {
-        return "CYLINDER -> \n Volume Formula: "+radius+" \n Surface Formula: "+getHeight();
+        return "CYLINDER -> \n Volume Formula: " + radius + " \n Surface Formula: " + getHeight();
     }
 
-   
     public String getRadius() {
         return radius;
     }
@@ -27,8 +27,5 @@ public class Cylinder {
     public void setHeight(String height) {
         this.height = height;
     }
-   
-   }
 
-        
-
+}

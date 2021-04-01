@@ -1,16 +1,14 @@
 package za.ac.cput.shapeforms;
-/**
- *
- * @author Tarren-Marc Adams
- * @Student number: 214041794
- * 
- */
+
+// @Student Name - Tarren-Marc Adams
+//@Student number - 214041794
 public class Triangle {
+
     private double height;
     private double base;
-    private int s1,s2,s3;
-    private String area="2/(b*h)";
-    private String parimeter="s1 + s2 + s3";
+    private int s1, s2, s3;
+    private String area = "2/(b*h)";
+    private String parimeter = "s1 + s2 + s3";
 
     public double getHeight() {
         return height;
@@ -71,6 +69,6 @@ public class Triangle {
     @Override
     public String toString() {
         return "Triangle{" + "area=" + area + ", parimeter=" + parimeter + '}';
-    } 
+    }
 }
 //end of program

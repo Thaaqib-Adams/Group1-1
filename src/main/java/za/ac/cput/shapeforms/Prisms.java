@@ -1,17 +1,15 @@
-
 package za.ac.cput.shapeforms;
 
-/**
- *
- * @author Lana Africa, 216166640
- */
+//Student Name - Lana Africa
+// Student Number - 216166640
 public class Prisms {
+
     private String volume, surface;
-    
+
     public Prisms() {
         this.volume = "base * height";
         this.surface = "2B + PH";
-    }   
+    }
 
     public String getVolume() {
         return volume;
@@ -33,5 +31,5 @@ public class Prisms {
     public String toString() {
         return "Prisms:\n" + "volume=" + volume + ", surface=" + surface + "";
     }
-    
+
 }

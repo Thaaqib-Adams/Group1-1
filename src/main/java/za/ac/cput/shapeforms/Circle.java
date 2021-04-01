@@ -1,26 +1,24 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package za.ac.cput.shapeforms;
 
 import java.util.Objects;
 
-/*
- * Moegammad Tasreeq Adams
- * student number 216173027
- */
+// Student Name - Moegammad Tasreeq Adams
+// student Number -  216173027
 public class Circle {
-     private double radius;
 
-    private double pi= 3.14 ;
+    private double radius;
+
+    private double pi = 3.14;
     private double area = getPi() * (getRadius() * getRadius());
 
-    public Circle(double radius, double area){
-        this.radius= pi;
-        this.area= area;
+    public Circle(double radius, double area) {
+        this.radius = pi;
+        this.area = area;
 
+    }
+
+    Circle() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     public double getRadius() {
@@ -49,17 +47,21 @@ public class Circle {
 
     @Override
     public String toString() {
-        return "Circle{" +
-                "radius=" + radius +
-                ", pi=" + pi +
-                ", area=" + area +
-                '}';
+        return "Circle{"
+                + "radius=" + radius
+                + ", pi=" + pi
+                + ", area=" + area
+                + '}';
     }
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
+        if (this == o) {
+            return true;
+        }
+        if (o == null || getClass() != o.getClass()) {
+            return false;
+        }
         Circle circle = (Circle) o;
         return Double.compare(circle.radius, radius) == 0 && Double.compare(circle.pi, pi) == 0 && Double.compare(circle.area, area) == 0;
     }
@@ -68,5 +70,5 @@ public class Circle {
     public int hashCode() {
         return Objects.hash(radius, pi, area);
     }
-    
+
 }
