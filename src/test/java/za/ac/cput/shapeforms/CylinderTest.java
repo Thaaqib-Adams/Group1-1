@@ -41,7 +41,7 @@ public class CylinderTest {
     public void tearDown() {
     }
 
-    //Testing Equality
+    //Testing Identity 
     @Test
     public void testIdentity() {
         assertSame(ob1, ob2);
